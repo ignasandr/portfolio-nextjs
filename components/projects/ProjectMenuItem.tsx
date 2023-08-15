@@ -20,7 +20,7 @@ const ProjectMenuItem = ({
       }`}
     >
       <div
-        className={`border-solid border-2 border-b-0 border-gray-500 bg-gray-100 ${
+        className={`border-double border-2 border-b-0 border-r-4 border-gray-500 bg-gray-100 ${
           active ? "border-gray-200" : ""
         }`}
       >
@@ -30,7 +30,7 @@ const ProjectMenuItem = ({
           }`}
         >
           <h1
-            className={`p-2 text-2xl bg-white cursor-pointer ${
+            className={`p-2 text-xl bg-white cursor-pointer ${
               active ? "text-red-600" : "hover:text-red-500"
             }`}
           >

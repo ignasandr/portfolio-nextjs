@@ -11,8 +11,8 @@ const ProjectMenu = ({
   onClick: (current: number) => void;
 }) => {
   return (
-    <div className="w-1/6 mt-4 ml-4 border-b-4 border-solid border-gray-600 bg-gray-600 shadow-md">
-      {projects.map((project: Project) => (
+    <div className="w-52 mt-4 ml-4 border-b-4 border-solid border-gray-600 bg-gray-600 shadow-lg h-fit transform translate-x-1 select-none">
+      {projects.map((project: Project, index) => (
         <ProjectMenuItem
           project={project}
           active={project.id === current}

@@ -37,14 +37,14 @@ const GalleryPage = ({
     <div>
       {/* Need some global table in the layout where these could all hook into for some of the dimensions */}
       <div className="flex w-full flex-row justify-center h-screen">
+        <ProjectMenu
+          projects={projects}
+          onClick={handleClick}
+          current={current}
+        />
         <div className="border-double border-4 border-gray-400 bg-gray-200 h-3/4 w-3/4">
           <div className="flex flex-row items-start justify-between  bg-gray-100 w-full h-full overflow-hidden shadow-md">
-            <ProjectMenu
-              projects={projects}
-              onClick={handleClick}
-              current={current}
-            />
-            <div className="w-2/6 pt-6 pl-3">
+            <div className="w-1/6 pt-6 pl-3">
               <p>Description</p>
             </div>
             {currentProjectImages && <Gallery {...currentProjectImages} />}
