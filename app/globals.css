@@ -16,9 +16,34 @@
   }
 }
 
+/* width */
+::-webkit-scrollbar {
+  width: 1.5rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fff;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(156 163 175);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #f3f4f6;
+  border-style: double;
+  border-color: rgb(156 163 175);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  border-color: rgb(75 85 99);
+}
+
 body {
   color: rgb(var(--foreground-rgb));
-  /* font-family: "Times New Roman", Times, serif; */
+  font-family: "Times New Roman", Times, serif;
   background: linear-gradient(
       to bottom,
       transparent,
