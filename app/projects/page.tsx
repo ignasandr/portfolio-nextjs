@@ -1,4 +1,4 @@
-import GalleryPage from "@/components/projects/GalleryPage";
+import ProjectPage from "@/components/projects/ProjectPage";
 import { promises as fs } from "fs";
 import { projects } from "./projects";
 import path from "path";
@@ -18,7 +18,7 @@ const Projects = async () => {
     })
   );
 
-  return <GalleryPage projects={projects} projectImages={projectImages} />;
+  return <ProjectPage projects={projects} projectImages={projectImages} />;
 };
 
 export default Projects;

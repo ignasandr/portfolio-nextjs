@@ -1,5 +1,4 @@
 import type { Project } from "@/app/types";
-import { MouseEventHandler } from "react";
 
 const ProjectMenuItem = ({
   project,
@@ -31,7 +30,7 @@ const ProjectMenuItem = ({
         >
           <h1
             className={`p-2 text-xl bg-white cursor-pointer ${
-              active ? "text-red-600" : "hover:text-red-500"
+              active ? "text-red-600" : `hover:text-gray-400`
             }`}
           >
             {project.title}

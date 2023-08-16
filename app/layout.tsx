@@ -1,6 +1,7 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { Gupter } from "next/font/google";
+import Header from "@/components/header/Header";
 
 const gupter = Gupter({ subsets: ["latin"], weight: ["400", "500", "700"] });
 
@@ -18,7 +19,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       {/* <body className={gupter.className}>{children}</body> */}
-      <body>{children}</body>
+      <body>
+        <Header />
+        {children}
+      </body>
     </html>
   );
 }
