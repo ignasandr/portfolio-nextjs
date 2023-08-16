@@ -16,6 +16,8 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  // one big button that just says PORTFOLIO or CONTACTS
+
   return (
     <html lang="en">
       {/* <body className={gupter.className}>{children}</body> */}

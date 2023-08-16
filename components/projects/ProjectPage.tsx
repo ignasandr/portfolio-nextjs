@@ -34,7 +34,7 @@ const ProjectPage = ({
   }
 
   return (
-    <div>
+    <div className="md:mt-16">
       {/* Need some global table in the layout where these could all hook into for some of the dimensions */}
       <div className="flex w-full md:flex-row flex-col justify-center h-fit md:h-screen">
         <ProjectMenu
