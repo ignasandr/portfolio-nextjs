@@ -21,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       {/* <body className={gupter.className}>{children}</body> */}
-      <body>
+      <body className="md:h-screen">
         <Header />
         {children}
       </body>

@@ -34,21 +34,18 @@ const ProjectPage = ({
   }
 
   return (
-    <div className="md:mt-16">
-      {/* Need some global table in the layout where these could all hook into for some of the dimensions */}
-      <div className="flex w-full md:flex-row flex-col justify-center h-fit md:h-screen">
-        <ProjectMenu
-          projects={projects}
-          onClick={handleClick}
-          current={current}
-        />
-        <div className="border-double border-4 border-gray-400 bg-gray-200 md:h-3/4 h-full w-full md:w-3/4">
-          <div className="flex md:flex-row flex-col items-start justify-between bg-gray-100 w-full h-full overflow-hidden shadow-md">
-            <div className="flex  pt-6 pl-3 justify-center w-full md:w-1/6">
-              <div className="w-full">Description</div>
-            </div>
-            {currentProjectImages && <Gallery {...currentProjectImages} />}
+    <div className="flex w-full md:flex-row flex-col justify-center h-full md:h-4/5">
+      <ProjectMenu
+        projects={projects}
+        onClick={handleClick}
+        current={current}
+      />
+      <div className="border-double border-4 border-gray-400 bg-gray-200 h-full w-full md:w-3/4">
+        <div className="flex md:flex-row flex-col items-start justify-between bg-gray-100 w-full h-full overflow-hidden shadow-md">
+          <div className="flex  pt-6 pl-3 justify-center w-full md:w-1/6">
+            <div className="w-full">Description</div>
           </div>
+          {currentProjectImages && <Gallery {...currentProjectImages} />}
         </div>
       </div>
     </div>
