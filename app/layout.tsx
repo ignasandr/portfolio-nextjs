@@ -27,7 +27,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${gupter.className}`}>
         {/* <body className="md:h-screen"> */}
-        <div className="md:mx-32">
+        <div className="md:mx-32 lg:mx-48 xl:mx-96">
           <Header active onClick={handleClick} />
           {children}
         </div>
