@@ -1,3 +1,5 @@
+"use client";
+
 import "./globals.css";
 import type { Metadata } from "next";
 import { Gupter } from "next/font/google";
@@ -16,14 +18,19 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  function handleClick() {
+    console.log("click");
+  }
   // one big button that just says PORTFOLIO or CONTACTS
 
   return (
     <html lang="en">
-      {/* <body className={gupter.className}>{children}</body> */}
-      <body className="md:h-screen">
-        <Header />
-        {children}
+      <body className={`${gupter.className} md:h-screen`}>
+        {/* <body className="md:h-screen"> */}
+        <div className="mx-32">
+          <Header active onClick={handleClick} />
+          {children}
+        </div>
       </body>
     </html>
   );
