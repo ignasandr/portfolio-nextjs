@@ -34,15 +34,15 @@ const ProjectPage = ({
   }
 
   return (
-    <div className="flex w-full md:flex-row flex-col justify-center h-full md:h-screen">
+    <div className="flex w-full flex-col justify-center h-full">
       <ProjectMenu
         projects={projects}
         onClick={handleClick}
         current={current}
       />
       <div className="border-double border-4 border-gray-400 bg-gray-200 h-full w-full">
-        <div className="flex md:flex-row flex-col items-start justify-between bg-gray-100 w-full h-full overflow-hidden shadow-md">
-          <div className="flex  pt-6 pl-3 justify-center w-full md:w-1/6">
+        <div className="flex flex-col items-start bg-gray-100 w-full h-full overflow-hidden shadow-md">
+          <div className="flex pt-6 pl-3 w-full">
             <div className="w-full">Description</div>
           </div>
           {currentProjectImages && <Gallery {...currentProjectImages} />}
