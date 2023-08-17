@@ -7,11 +7,11 @@ import Header from "@/components/header/Header";
 
 const gupter = Gupter({ subsets: ["latin"], weight: ["400", "500", "700"] });
 
-export const metadata: Metadata = {
-  title: "Ignas Andriuškevičius Portfolio",
-  description:
-    "Portfolio website of an audiovisual artist Ignas Andriuškevičius",
-};
+// export const metadata: Metadata = {
+//   title: "Ignas Andriuškevičius Portfolio",
+//   description:
+//     "Portfolio website of an audiovisual artist Ignas Andriuškevičius",
+// };
 
 export default function RootLayout({
   children,
