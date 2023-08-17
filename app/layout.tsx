@@ -18,8 +18,8 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      <body className={`${gupter.className} h-full`}>
-        {/* <body className="md:h-screen"> */}
+      {/* <body className={`${gupter.className} h-full`}> */}
+      <body className="h-full">
         <div className="md:mx-32 lg:mx-48 xl:mx-96">
           <Header onClick={handleClick} />
           {children}
