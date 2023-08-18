@@ -5,8 +5,8 @@ export const projects = [
     title: "Kaunas Zoo",
     subtitle: "Šokio spektaklis",
     description:
-      "Imprvizacinės muzikos grupės Kaunas Zoo ir Auros šokio teatro sukurtas pasirodymas pelnęs Fortūnos diplomo apdovanojimą už muziką.",
-    roles: ["kompozicija", "aranžavimas", "koordinavimas"],
+      "Imprvizacinės muzikos grupės Kaunas Zoo ir Auros šokio teatro sukurtas pasirodymas pelnęs 'Fortūnos diplomą' už muziką.",
+    authors: "Birutė Letukaitė, Kaunas Zoo",
 
     // Bendraautoriai: Birutė Letukaitė, Kaunas Zoo
   },
@@ -16,9 +16,9 @@ export const projects = [
     title: "Menas nemiega",
     subtitle: "Kūrybinės dirbtuvės",
     description: "",
-    roles: ["kompozicija", "aranžavimas", "koordinavimas"],
+    authors: "Karolina Bielskytė, Viltė Švarplytė",
 
-    // Bendraautorės: Karolina Bielskytė, Viltė ?
+    // Bendraautorės: Karolina Bielskytė, Viltė Švarplytė
   },
   {
     id: 3,
@@ -26,7 +26,7 @@ export const projects = [
     title: "Cosmic Mass",
     subtitle: "Teatralizuotas muzikinis pasirodymas",
     description: "",
-    roles: ["kompozicija", "aranžavimas", "koordinavimas"],
+    authors: "Kaunas Zoo, Kaunas 3022",
     // Bendraautoriai: Kaunas Zoo, Kaunas 3022
   },
   {
@@ -36,7 +36,7 @@ export const projects = [
     subtitle: "Knygos ištraukos skaitymas",
     description:
       "Kiek iš tiesų galima pažinti ungurį? Arba žmogų? Patrik Svensson knyga „Apie ungurius ir žmones. Mįslingiausios pasaulio žuvies istorija“ pasakoja apie paslaptingąjį ungurį ir tuo pačiu apie rašytojo ryšį su tėvu bei kaip judviejų ryšį sustiprino mįslingiausia pasaulio žuvis.",
-    roles: ["kompozicija", "aranžavimas", "koordinavimas", "animacija"],
+    authors: "Saulius Čiučelis",
     // Bendraautorius: Saulius Čiučelis
   },
   {
@@ -46,7 +46,7 @@ export const projects = [
     subtitle: "Kūrybinės dirbtuvės",
     description:
       "Dėžutės iš anksto suprogramuotos taip, kad jų kuriami garsai tarpusavyje derėtų. ",
-    roles: ["kompozicija", "koordinavimas", "programavimas"],
+    authors: "",
   },
   {
     id: 6,
@@ -54,8 +54,8 @@ export const projects = [
     title: "Muzikinė stovykla",
     subtitle: "Kūrybinės dirbtuvės",
     description: "",
-    roles: ["kompozicija", "aranžavimas", "koordinavimas"],
-    // Bendraautoriai: Adomas Lapinskas, Asta Volungė, Karenas
+    authors: "Adomas Lapinskas, Asta Volungė",
+    // Bendraautoriai: Adomas Lapinskas, Asta Volungė
   },
   {
     id: 7,
@@ -63,7 +63,7 @@ export const projects = [
     title: "Kairiųjų choras",
     subtitle: "Teatralizuotas muzikinis pasirodymas",
     description: "",
-    roles: ["kompozicija", "aranžavimas", "koordinavimas"],
+    authors: "Vika Matuzaitė, socialinio centro Emma kolektyvas",
     // Bendraautoriai: Vika Matuzaitė, socialinio centro Emma kolektyvas
   },
   {
@@ -72,7 +72,7 @@ export const projects = [
     title: "Audio Pirtis",
     subtitle: "Interaktyvi instaliacija",
     description: "",
-    roles: ["įrašymas", "programavimas"],
+    authors: "Judita Ragauskaitė, Karolina Latvytė Bibiano",
     // bendraautorės: Judita Ragauskaitė ir Karolina Latvytė Bibiano
   },
   {
@@ -81,8 +81,8 @@ export const projects = [
     title: "Bičiulystė",
     subtitle: "Interaktyvi skulptūra",
     description: "",
-    roles: ["kompozicija", "aranžavimas"],
-    // bendraautorius:
+    authors: "Konstantin Djuričkovič, Kaunas 3022",
+    // autorius: Konstantin Djuričković
   },
 ];
 

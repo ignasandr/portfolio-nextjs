@@ -11,8 +11,8 @@ export const metadata: Metadata = {
 
 const Contacts = () => {
   return (
-    <div className="flex justify-center pt-48 h-screen">
-      <div className="flex flex-col">
+    <div className="grid grid-cols-2 pt-32 h-screen w-full">
+      <div className="col-start-2 col-span-1 flex flex-col justify-self-center">
         <h1 className="text-2xl">Ignas Andriuškevičius</h1>
         <div className="flex flex-row items-center my-2">
           <Image alt="email" width={16} src={emailIcon} className="mr-2" />

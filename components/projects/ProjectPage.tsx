@@ -45,7 +45,7 @@ const ProjectPage = ({
           description={
             projects.find((project) => project.id === current)?.description
           }
-          roles={projects.find((project) => project.id === current)?.roles}
+          authors={projects.find((project) => project.id === current)?.authors}
         />
       </div>
       <div className="border-double border-4 border-gray-400 bg-gray-200 h-full w-full">

@@ -4,7 +4,7 @@ export interface Project {
   title: string;
   subtitle: string;
   description: string;
-  roles: string[];
+  authors: string;
 }
 
 export interface ProjectImage {
