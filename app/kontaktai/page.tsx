@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 
 const Contacts = () => {
   return (
-    <div className="grid grid-cols-2 pt-32 h-screen w-full">
+    <div className="grid sm:grid-cols-2 pt-32 h-screen w-full">
       <div className="col-start-2 col-span-1 flex flex-col justify-self-center">
         <h1 className="text-2xl">Ignas Andriuškevičius</h1>
         <div className="flex flex-row items-center my-2">
