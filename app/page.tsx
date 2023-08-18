@@ -5,7 +5,7 @@ import { projects } from "./projects";
 import path from "path";
 
 export const metadata: Metadata = {
-  title: "Ignas Andriuškevičius Portfolio",
+  title: "IA Portfolio",
   description:
     "Audiovizualinio menininko Igno Andriuškevičiaus portfolio puslapis",
 };

@@ -11,7 +11,7 @@ const ProjectMenu = ({
   onClick: (current: number) => void;
 }) => {
   return (
-    <div className="w-full border-b-4 border-solid border-gray-600 bg-gray-600 shadow-lg h-fit transform select-none">
+    <div className="md:w-1/2 border-b-4 border-solid border-gray-600 bg-gray-600 h-fit transform select-none">
       {projects.map((project: Project, index) => (
         <ProjectMenuItem
           project={project}

@@ -11,18 +11,15 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
-  function handleClick(id: number) {
-    console.log("click");
-  }
-  // one big button that just says PORTFOLIO or CONTACTS
-
   return (
     <html lang="en">
       {/* <body className={`${gupter.className} h-full`}> */}
       <body className="h-full">
-        <div className="md:mx-32 lg:mx-48 xl:mx-96">
-          <Header onClick={handleClick} />
-          {children}
+        <div className="flex w-full flex-col justify-center h-full">
+          <div className="md:mx-32 lg:mx-48 xl:mx-96">
+            <Header />
+            {children}
+          </div>
         </div>
       </body>
     </html>

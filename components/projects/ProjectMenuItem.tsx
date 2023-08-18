@@ -19,8 +19,8 @@ const ProjectMenuItem = ({
       }`}
     >
       <div
-        className={`border-double border-2 border-b-0 border-r-4 border-gray-500 bg-gray-100 ${
-          active ? "border-gray-200" : ""
+        className={`border-double border-2 border-b-0 border-r-4 border-gray-500 bg-white ${
+          active ? "border-gray-200 md:border-r-0 font-semibold" : ""
         }`}
       >
         <div

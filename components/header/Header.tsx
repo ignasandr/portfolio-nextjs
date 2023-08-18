@@ -2,16 +2,14 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
-const Header = ({ onClick }: { onClick: (id: number) => void }) => {
+const Header = () => {
   const pathname = usePathname();
-  console.log(pathname);
 
   let active: boolean = pathname === "/";
 
   return (
     <div className="flex w-full justify-center items-end">
       <button
-        onClick={() => onClick(0)}
         className={`border-double border-0 border-gray-400 bg-gray-100 hover:border-b-4 w-full text-left ${
           active ? "border-b-4 border-l-4" : ""
         }`}
@@ -39,7 +37,6 @@ const Header = ({ onClick }: { onClick: (id: number) => void }) => {
         </div>
       </button>
       <button
-        onClick={() => onClick(1)}
         className={`border-double border-0 border-gray-400 bg-gray-100 hover:border-b-4 w-full text-left ${
           !active ? "border-b-4 border-r-4" : ""
         }`}
