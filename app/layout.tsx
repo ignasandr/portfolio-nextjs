@@ -16,7 +16,7 @@ export default function RootLayout({
       {/* <body className={`${gupter.className} h-full`}> */}
       <body className="h-full">
         <div className="flex w-full flex-col justify-center h-full">
-          <div className="md:mx-32 lg:mx-48 xl:mx-64 2xl:mx-96">
+          <div className="md:mx-4 lg:mx-24 xl:mx-48 2xl:mx-72">
             <Header />
             {children}
           </div>

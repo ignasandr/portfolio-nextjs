@@ -19,7 +19,7 @@ const Description = ({
 
       {authors !== "" && (
         <h3 className="">
-          <span className="italic text-lg">Bendraautoriai:</span> {authors}
+          <span className="italic">Bendraautoriai:</span> {authors}
         </h3>
       )}
     </div>
