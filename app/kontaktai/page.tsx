@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import telIcon from "./tel.svg";
 import emailIcon from "./email.svg";
 import Image from "next/image";
+import linkedin from "./linkedin.svg";
 
 export const metadata: Metadata = {
   title: "IA Kontaktai",
@@ -24,6 +25,16 @@ const Contacts = () => {
           <Image alt="phone" width={16} src={telIcon} className="mr-2" />
           <a href="tel:+37067948741" className="text-lg text-blue-700">
             +370 679 48741
+          </a>
+        </div>
+        <div className="flex flex-row items-center">
+          <Image alt="linkedin" width={16} src={linkedin} className="mr-2" />
+          <a
+            href="https://www.linkedin.com/in/ignas-andr/"
+            className="text-lg text-blue-700 mt-1"
+            target="_blank"
+          >
+            LinkedIn
           </a>
         </div>
       </div>
