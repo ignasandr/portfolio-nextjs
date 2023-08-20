@@ -28,7 +28,7 @@ export const projects = [
     title: "Cosmic Mass",
     subtitle: "Teatralizuotas muzikinis pasirodymas",
     description:
-      "Mišių struktūra paremtas pasirodymas, iškilmingoje M.K. Čiurlionio galerijos salėje.",
+      "Muziejų nakties uždarymui skirtas meninis ritualas - mišių struktūra paremtas pasirodymas, iškilmingoje M.K. Čiurlionio galerijos salėje. Kelionė į kosmosą per save, jaukioje, ramybės vieni kitiems linkinčių žmonių draugijoje. ",
     authors:
       "Ignas Andriuškevičius (idėja, koordinavimas, muzikos kompozicija ir aranžavimas) Kaunas Zoo, Kaunas 3022",
     // Bendraautoriai: Ignas Andriuškevičius (idėja, koordinavimas, muzikos kompozicija ir aranžavimas) Kaunas Zoo, Kaunas 3022
