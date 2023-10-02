@@ -1,6 +1,16 @@
 export const projects = [
   {
     id: 1,
+    name: "grybas",
+    title: "future lab.01_HYPHA",
+    subtitle: "Garsinė instaliacija",
+    description:
+      "Pirmoji pop-up architektūros galerijos A-XY renginių ciklo future lab.01_HYPHA dalis – architekto Šarūno Petrausko parodos atidarymas. Lankytojai turėjo galimybę pamatyti, kaip auga micelio erdvė ir išgirsti Igno Andriuškevičiaus garso eksperimentą, kurio metu ji transformavosi į garsinę struktūrą.",
+    authors:
+      "Ignas Andriuškevičius (programavimas, garso dizainas), Šarūnas Petrauskas",
+  },
+  {
+    id: 2,
     name: "aura",
     title: "Kaunas Zoo",
     subtitle: "Šokio spektaklis",
@@ -12,7 +22,7 @@ export const projects = [
     // Bendraautoriai: Ignas Andriuškevičius (koordinavimas, muzikos kompozicija ir anranžavimas), Birutė Letukaitė, Kaunas Zoo
   },
   {
-    id: 2,
+    id: 3,
     name: "theater",
     title: "Menas nemiega",
     subtitle: "Kūrybinės dirbtuvės",
@@ -23,7 +33,7 @@ export const projects = [
     // Bendraautorės: Ignas Andriuškevičius (koordinavimas, techniniai sprendimai) Karolina Bielskytė, Viltė Švarplytė
   },
   {
-    id: 3,
+    id: 4,
     name: "cosmic_mass",
     title: "Cosmic Mass",
     subtitle: "Teatralizuotas muzikinis pasirodymas",
@@ -34,7 +44,7 @@ export const projects = [
     // Bendraautoriai: Ignas Andriuškevičius (idėja, koordinavimas, muzikos kompozicija ir aranžavimas) Kaunas Zoo, Kaunas 3022
   },
   {
-    id: 4,
+    id: 5,
     name: "eels",
     title: "Sutemų valandos skaitymai",
     subtitle: "Knygos ištraukos skaitymas",
@@ -45,7 +55,7 @@ export const projects = [
     // Bendraautorius: Saulius Čiučelis
   },
   {
-    id: 5,
+    id: 6,
     name: "vmd",
     title: "Vaikų muzikos diena",
     subtitle: "Kūrybinės dirbtuvės",
@@ -55,7 +65,7 @@ export const projects = [
       "Ignas Andriuškevičius (idėja, koordinavimas, dizainas, programavimas)",
   },
   {
-    id: 6,
+    id: 7,
     name: "refugees",
     title: "Susipynę",
     subtitle: "Kūrybinės dirbtuvės",
@@ -66,7 +76,7 @@ export const projects = [
     // Bendraautoriai: Adomas Lapinskas, Asta Volungė
   },
   {
-    id: 7,
+    id: 8,
     name: "left_choir",
     title: "Kairiųjų choras",
     subtitle: "Teatralizuotas muzikinis pasirodymas",
@@ -77,7 +87,7 @@ export const projects = [
     // Bendraautoriai: Vika Matuzaitė, socialinio centro Emma kolektyvas
   },
   {
-    id: 8,
+    id: 9,
     name: "sauna",
     title: "Audio Pirtis",
     subtitle: "Interaktyvi instaliacija",
@@ -88,7 +98,7 @@ export const projects = [
     // bendraautorės: Judita Ragauskaitė ir Karolina Latvytė Bibiano
   },
   {
-    id: 9,
+    id: 10,
     name: "biciulyste",
     title: "Bičiulystė",
     subtitle: "Interaktyvi skulptūra",
