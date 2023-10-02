@@ -2,7 +2,7 @@ export const projects = [
   {
     id: 1,
     name: "grybas",
-    title: "future lab.01_HYPHA",
+    title: "A-XY future lab.01_HYPHA",
     subtitle: "Garsinė instaliacija",
     description:
       "Pirmoji pop-up architektūros galerijos A-XY renginių ciklo future lab.01_HYPHA dalis – architekto Šarūno Petrausko parodos atidarymas. Lankytojai turėjo galimybę pamatyti, kaip auga micelio erdvė ir išgirsti Igno Andriuškevičiaus garso eksperimentą, kurio metu ji transformavosi į garsinę struktūrą. Galite pasiklausyti čia: https://on.soundcloud.com/ApyGZ",
