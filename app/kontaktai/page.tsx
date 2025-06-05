@@ -24,7 +24,7 @@ const Contacts = () => {
         <div className="flex flex-row items-center">
           <Image alt="phone" width={16} src={telIcon} className="mr-2" />
           <a href="tel:+37067948741" className="text-lg text-blue-700">
-            +370 679 48741
+            +370 667 12776
           </a>
         </div>
         <div className="flex flex-row items-center">
